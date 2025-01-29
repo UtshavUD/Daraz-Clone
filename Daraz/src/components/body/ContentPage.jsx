@@ -3,6 +3,7 @@ import AutoPlay from './Autoplay'
 import FlashSale from './FlashSale'
 import Categories from '../body/Categories'
 import JustForYou from './JustForYou'
+import Footer from '../global/Footer'
 
 
 
@@ -13,6 +14,7 @@ const ContentPage = () => {
 <FlashSale/>
 <Categories/>
 <JustForYou/>
+<Footer/>
     </div>
   )
 }
