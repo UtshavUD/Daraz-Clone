@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ image, prevprice, name, dispercent, priceafterdis }) => {
   return (
-    <div className="bg-white shadow-md mb-2 hover:shadow-2xl h-full hover:translate-x transition-transform duration-300 ease-in-out">
+    <div className="bg-white mb-2 hover:shadow-xl h-full hover:translate-y-1 transition-transform duration-300 ease-in-out">
       <div className="flex flex-col items-start  text-sm  overflow-hidden">
         
         <img
@@ -24,7 +24,7 @@ const Card = ({ image, prevprice, name, dispercent, priceafterdis }) => {
        
         <div className="flex items-center px-2 gap-2 text-gray-500 text-xs mt-1">
           <span className="line-through"> {prevprice}</span>
-          <span className="text-red-600">{dispercent}</span>
+          <span className="text-black font-semibold">{dispercent}</span>
         </div>
       </div>
     </div>
