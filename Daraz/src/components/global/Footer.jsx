@@ -11,11 +11,11 @@ const Footer = () => {
             <span className='flex flex-col gap-1 text-xs'>
 
             <h1 className='text-lg'>Customer Care</h1>
-<div className='flex flex-col items-start'>
-            <button>Help Ceenter</button>
-            <button>How to Buy</button>
-            <button>Returns & Refunds</button>
-               <button> Contact Us</button>
+<div className='flex flex-col items-start text-nowrap '>
+            <button className='hover: text-underline'>Help Center</button>
+            <button className='hover: text-underline'>How to Buy</button>
+            <button className='hover: text-underline'>Returns & Refunds</button>
+               <button className='hover: text-underline'> Contact Us</button>
 </div>
             </span>
 
@@ -23,7 +23,7 @@ const Footer = () => {
             <span className='flex flex-col gap-1 text-xs'>
 
                 <h1 className='text-xl'>Daraz</h1>
-<div className='flex flex-col items-start'>
+<div className='flex flex-col items-start text-nowrap'>
 <button>Careers</button>
 <button>About Daraz</button>
 <button>Daraz Blog</button>
@@ -52,7 +52,7 @@ const Footer = () => {
             </span>
             </div>
 
-            <span className='grid grid-cols-2 gap-2'>
+            <span className='grid grid-cols-2 gap-2 md:grid-cols-2'>
                 <button><img src={Appstore}/></button>
                <button><img src={Googleplay}/></button>
                 <button><img src={Appgallery}/></button>
@@ -60,8 +60,9 @@ const Footer = () => {
 
         </div>
 
+        <div>
 
-
+        </div>
         
     </div>
   )
